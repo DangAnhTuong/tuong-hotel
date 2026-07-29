@@ -1,7 +1,10 @@
 
 import Layoutdf from "../../layout";
-import Cart from "../../pages/cart";
+import Blog from "../../pages/amthuc";
+import Cart from "../../pages/amthuc";
+import Tours from "../../pages/amthuc/tours";
 import Home from "../../pages/home";
+import Room from "../../pages/room";
 export const routes=[
     {
         path:"/",
@@ -12,8 +15,16 @@ export const routes=[
                 element:<Home />,
             },
             {
-                path:"/cart",
-                element:<Cart />,
+                path:"/blog",
+                element:<Blog />,
+            },
+            {
+                path:"/room",
+                element:<Room />,
+            },
+            {
+                path:"/tours",
+                element:<Tours/>
             }
         ]
     }

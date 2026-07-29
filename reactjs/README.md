@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+# 🏨 3D Luxury Hotel Showcase & Reservation System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-khsan.netlify.app-brightgreen?style=for-the-badge&logo=netlify)](https://khson.netlify.app/)
+[![React 19](https://img.shields.io/badge/React-19.0.0-61DAFB?style=for-the-badge&logo=react)](https://react.dev/)
+[![Three.js](https://img.shields.io/badge/Three.js-3D%20Graphics-black?style=for-the-badge&logo=three.js)](https://threejs.org/)
+[![Ant Design](https://img.shields.io/badge/Ant%20Design-5.x-0170FE?style=for-the-badge&logo=antdesign)](https://ant.design/)
 
-## Available Scripts
+A high-performance, modern, interactive 3D web application designed for luxury hotel showcases, room availability reservation, tour packages, and dining experience presentation.
 
-In the project directory, you can run:
+🌐 **Live Demo:** [https://khson.netlify.app/](https://khson.netlify.app/)
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🌟 Key Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **🎨 3D Interactive Rendering**: Integrated `@react-three/fiber` and `Three.js` for immersive 3D graphics rendering and interactive visual elements.
+- **🛏️ Luxury Room Showcase**: Detailed view of VIP rooms, suite categories, prices, amenities, and room availability booking interface.
+- **🍽️ Dining & Culinary Section**: Presentation of gourmet dining menus, world-class restaurants, and spa & wellness services.
+- **🗺️ Tour Packages & Services**: Showcasing curated Saigon city tours, local experiences, and concierge assistance.
+- **🌍 Multi-language Support (i18n)**: Seamless language detection and localization support for international guests.
+- **📱 Fully Responsive Design**: Built with Ant Design & custom CSS to ensure fluid responsiveness across mobile, tablet, and desktop screens.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠️ Technology Stack
 
-### `npm run build`
+| Layer | Technologies Used |
+| :--- | :--- |
+| **Frontend Core** | React 19, React Router v7, JavaScript (ES6+), HTML5, CSS3/SCSS |
+| **3D & Animation** | Three.js, `@react-three/fiber`, `@react-three/drei`, Lucide Icons |
+| **UI Framework** | Ant Design 5, `@shadcn/ui` components |
+| **Localization** | `i18next-browser-languagedetector` |
+| **Build & Hosting** | React Scripts, Netlify (`netlify.toml`) |
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🚀 Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Follow these steps to run the project locally on your machine:
 
-### `npm run eject`
+### Prerequisites
+- Node.js (v18.0.0 or higher)
+- npm or yarn
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Installation
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/DangAnhTuong/tuong-hotel.git
+   cd tuong-hotel
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. **Start the development server:**
+   ```bash
+   npm start
+   ```
 
-## Learn More
+4. Open your browser and navigate to `http://localhost:3000`.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 💻 Author
 
-### Code Splitting
+**Dang Anh Tuong**
+- **GitHub:** [@DangAnhTuong](https://github.com/DangAnhTuong)
+- **Email:** danganhtuongg@gmail.com
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+*Built with ❤️ using React 19 & Three.js.*
