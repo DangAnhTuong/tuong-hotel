@@ -1,4 +1,4 @@
-# 🏨 3D Luxury Hotel Showcase & Reservation System
+# 🏨 Tuong Hotel - 3D Showcase & Reservation System
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-khsan.netlify.app-brightgreen?style=for-the-badge&logo=netlify)](https://khson.netlify.app/)
 [![React 19](https://img.shields.io/badge/React-19.0.0-61DAFB?style=for-the-badge&logo=react)](https://react.dev/)
