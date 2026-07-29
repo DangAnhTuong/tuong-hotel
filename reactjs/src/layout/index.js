@@ -1,6 +1,6 @@
 import { Col, Layout, QRCode, Row } from 'antd';
 import "./style.css";
-import { BankOutlined, CreditCardOutlined, FacebookOutlined, InstagramOutlined, MoneyCollectOutlined, QrcodeOutlined, TwitterOutlined, YoutubeOutlined } from '@ant-design/icons';
+import { FacebookOutlined, InstagramOutlined, YoutubeOutlined } from '@ant-design/icons';
 import Menuuuu from '../component/menungang';
 import { Outlet } from 'react-router-dom';
 import tuong from "../img/tuongne.png";
@@ -31,7 +31,7 @@ function Layoutdf() {
         <> <div className='body'>
             <Layout className='layout' >
                 <Row justify="center" align="middle" gutter={[16, 16]} style={{ height: '100%' }}>
-                    <Col col-xxl-24 col-xl-24 col-lg-24 col-md-12 col-sm-12>
+                    <Col xxl={24} xl={24} lg={24} md={12} sm={12}>
                         <header className={`header ${scrolling ? "scrolled" : ""}`}>
                             <Menuuuu />
                         </header>
@@ -39,7 +39,7 @@ function Layoutdf() {
                 </Row>
                 <Content className='contentmain'>
                     <div className='content'> <Outlet />
-                    <div className='imagee'><img src={chat}/></div>
+                    <div className='imagee'><img src={chat} alt="chatbox"/></div>
                     </div>
                 </Content>
                 <Footer className='footermain'>
@@ -55,7 +55,7 @@ function Layoutdf() {
                                     <span>Liên hệ với chúng tôi </span>
                                 </div>
                                 <div className='fo2'>
-                                    <div className='logo'><img src={logo}></img></div>
+                                    <div className='logo'><img src={logo} alt="logo" /></div>
                                     <div className='title'>
                                         <span><b>Address:</b> Dang Thuy Tram Street, Binh Thanh District, Ho Chi Minh, Vietnam</span>
                                         <span><b>Phone</b>:  +84 335847674    <b>Hotline:</b>  +84 942 217 271    <b>Email: </b>danganhtuongg@gmail.com</span>
@@ -65,7 +65,7 @@ function Layoutdf() {
                                     <div className='box'>
                                         <div>Thẻ được thanh toán </div>
                                         <div className='card'>
-                                            <img src={card} />
+                                            <img src={card} alt="payment cards" />
                                         </div>
                                     </div>
                                     <div className='box'>
